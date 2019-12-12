@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="wavelib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\unitTests\;CMake Files\unitTests\wavelibBoostTests\;CMake Files\src\;CMake Files\auxiliary\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wavelibLibTests">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/wavelibLibTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/../../header"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/unitTests/wavelibBoostTests/Makefile&quot;  VERBOSE=1 wavelibLibTests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/unitTests/wavelibBoostTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/unitTests/wavelibBoostTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/unitTests/wavelibBoostTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wavelibLibTests/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/wavelibLibTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/../../header"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/unitTests/wavelibBoostTests/Makefile&quot;  VERBOSE=1 wavelibLibTests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/unitTests/wavelibBoostTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/unitTests/wavelibBoostTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/unitTests/wavelibBoostTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wavelib">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/libwavelib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src/Makefile&quot;  VERBOSE=1 wavelib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wavelib/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/libwavelib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src/Makefile&quot;  VERBOSE=1 wavelib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wauxlib">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/libwauxlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary/Makefile&quot;  VERBOSE=1 wauxlib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wauxlib/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/libwauxlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary/Makefile&quot;  VERBOSE=1 wauxlib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/auxiliary/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swt2test">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/swt2test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 swt2test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swt2test/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/swt2test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 swt2test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="modwt2test">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwt2test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 modwt2test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="modwt2test/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwt2test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 modwt2test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dwt2test">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwt2test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 dwt2test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dwt2test/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwt2test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 dwt2test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="modwtdenoisetest">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwtdenoisetest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 modwtdenoisetest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="modwtdenoisetest/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwtdenoisetest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 modwtdenoisetest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wtreetest">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/wtreetest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 wtreetest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wtreetest/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/wtreetest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 wtreetest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="modwttest">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 modwttest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="modwttest/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 modwttest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swttest">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/swttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 swttest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swttest/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/swttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 swttest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cwttest">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/cwttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 cwttest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cwttest/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/cwttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 cwttest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dwttest">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 dwttest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dwttest/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 dwttest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="denoisetest">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/denoisetest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 denoisetest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="denoisetest/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/denoisetest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 denoisetest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dwpttest">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwpttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 dwpttest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dwpttest/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwpttest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/include"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/Bin"/>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/header"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 dwpttest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/Build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary/denoise.c">
+			<Option target="wauxlib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary/waux.c">
+			<Option target="wauxlib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary/waux.h">
+			<Option target="wauxlib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/conv.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/conv.h">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/cwt.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/cwt.h">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/cwtmath.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/cwtmath.h">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/hsfft.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/hsfft.h">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/real.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/real.h">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/wavefilt.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/wavefilt.h">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/wavefunc.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/wavefunc.h">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/wavelib.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/wtmath.c">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/wtmath.h">
+			<Option target="wavelib"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/cwttest.c">
+			<Option target="cwttest"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/denoisetest.c">
+			<Option target="denoisetest"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwpttest.c">
+			<Option target="dwpttest"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwt2test.c">
+			<Option target="dwt2test"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/dwttest.c">
+			<Option target="dwttest"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwt2test.c">
+			<Option target="modwt2test"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwtdenoisetest.c">
+			<Option target="modwtdenoisetest"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/modwttest.c">
+			<Option target="modwttest"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/swt2test.c">
+			<Option target="swt2test"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/swttest.c">
+			<Option target="swttest"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/wtreetest.c">
+			<Option target="wtreetest"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/unitTests/wavelibBoostTests/tst_dwt.cpp">
+			<Option target="wavelibLibTests"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/unitTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unitTests\"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/unitTests/wavelibBoostTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unitTests\wavelibBoostTests\"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/auxiliary/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\auxiliary\"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/Wavelib_Library/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

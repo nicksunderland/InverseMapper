@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DSPFilters"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DSPFilters">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/libDSPFilters.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 DSPFilters"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DSPFilters/fast">
+				<Option output="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/libDSPFilters.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 DSPFilters/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Bessel.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Biquad.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Butterworth.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Cascade.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/ChebyshevI.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/ChebyshevII.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Custom.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Design.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Documentation.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Elliptic.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Filter.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Legendre.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/Param.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/PoleFilter.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/RBJ.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/RootFinder.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/source/State.cpp">
+			<Option target="DSPFilters"/>
+		</Unit>
+		<Unit filename="/Users/nicholassunderland/Documents/2.Medical_work/4.ABI/C++Libraries/DSPFilters_Library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

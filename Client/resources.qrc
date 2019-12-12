@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Helper_Functions/Shaders/fragmentshader.frag</file>
+        <file>Helper_Functions/Shaders/vertexshader.vert</file>
+        <file>Resources/images/abi-hc-rgb.png</file>
+        <file>Helper_Functions/Shaders/emgfragshader.frag</file>
+        <file>Helper_Functions/Shaders/emgvertshader.vert</file>
+        <file>Helper_Functions/Shaders/pickfragshader.frag</file>
+        <file>Helper_Functions/Shaders/pickvertshader.vert</file>
+    </qresource>
+</RCC>
